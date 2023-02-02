@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Build | Landing</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__inner">
+                <a class="header__logo" href="#">
+                    <img src="images/logo.svg" alt="">
+                </a>
+                <nav class="header__nav">
+                    <div id="menuArea">
+                        <input type="checkbox" id="menuToggle"></input>
+                        <label for="menuToggle" class="menuOpen">
+                            <div class="open"></div>
+                        </label>
+                        <div class="menu menuEffects">
+                            <label for="menuToggle"></label>
+                            <div class="menuContent">
+                                <ul class="header__list">
+                                    <li class="header__item"><a class="header__link" href="#">Главная</a></li>
+                                    <li class="header__item"><a class="header__link" href="#">Курсы</a></li>
+                                    <li class="header__item"><a class="header__link" href="#">Расписание</a></li>
+                                    <li class="header__item"><a class="header__link" href="#">Преподаватели</a></li>
+                                    <li class="header__item"><a class="header__link" href="#">Рассылка</a></li>
+                                    <li class="header__item"><a class="header__link" href="#">Контакты</a></li>
+                                </ul>
+                                <button class="header__button header--button" href="#">Зайти в кабинет</button>
+                            </div>
+                        </div>
+                </nav>
+                <button class="header__button" href="#">Зайти в кабинет</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="hero">
+            <div class="hero__wrapper">
+                <h1 class="hero__title">Первый курс <br>
+                    по компьютерной сборке
+                </h1>
+                <div class="hero__inner">
+                    <div class="hero__block">
+                        <div class="hero__content">
+
+                            <div id="days"
+                                style="background: #121212; color: #FFFFFF; text-align: center; font-size: 36px;">
+                            </div>
+                            <span class="hero__text">Дней</span>
+                        </div>
+                    </div>
+                    <div class="hero__block">
+                        <div class="hero__content">
+                            <div id="hours"
+                                style=" background: #121212; color: #FFFFFF; text-align: center;   font-size: 36px;">
+                            </div>
+                            <span class="hero__text">Часов</span>
+                        </div>
+                    </div>
+                    <div class="hero__block">
+                        <div class="hero__content">
+                            <span class="hero__number"></span>
+                            <div id="minutes"
+                                style=" background: #121212; color: #FFFFFF;  text-align: center; font-size: 36px;">
+                            </div>
+                            <span class="hero__text">Минут</span>
+                        </div>
+                    </div>
+                    <div class="hero__block">
+                        <div class="hero__content">
+                            <div id="seconds"
+                                style=" background: #121212; color: #FFFFFF;  text-align: center;   font-size: 36px;">
+                            </div>
+                            <span class="hero__text">Секунд</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__course">
+                <div class="hero__course-inner">
+                    <button class="hero__course-button" type="submit">Заказать курс</button>
+                    <div class="hero__course-people">
+                        <div class="hero__course-block">
+                            <span class="hero__course-item">Учеников всего:</span>
+                            <span class="hero__course-number">200</span>
+                        </div>
+                        <div class="hero__course-block">
+                            <span class="hero__course-item">Успешно закончили курс:</span>
+                            <span class="hero__course-number">190</span>
+                        </div>
+                    </div>
+                    <div class="hero__course-money">
+                        <div class="hero__course-block">
+                            <span class="hero__course-item">Заработано учениками:</span>
+                            <span class="hero__course-earned">400 000₽</span>
+                        </div>
+                        <div class="hero__course-lines">
+                            <div class="hero__course-line"></div>
+                            <div class="hero__course-line"></div>
+                        </div>
+                        <div class="hero__course-wrap">
+                            <span class="hero__course-item">0</span>
+                            <span class="hero__course-price">400 000₽</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="about">
+            <div class="about__wrapper">
+                <div class="about__inner">
+                    <img class="about__image" src="images/about-img.png" alt="">
+                    <div class="about__content">
+                        <h2 class="about__title item__title">Чем мы занимаемся?</h2>
+                        <p class="about__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget neque, dignissim et feugiat
+                            <br> elit augue in
+                            suspendisse
+                            egestas. Dictum vestibulum mi et sed nunc, orci fermentum <br> vestibulum, morbi. Et neque,
+                            adipiscing sapien sem
+                            senectus
+                            praesent aenean <br> consequat. Aenean facilisi turpis aliquet fringilla. Nunc sem felis sed
+                            interdum feugiat <br>
+                            mattis elit,
+                            sollicitudin. Quam pharetra rhoncus risus, cursus id elementum aliquet. <br> Nullam turpis
+                            arcu malesuada arcu
+                            interdum
+                            placerat nisi, lobortis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="start">
+            <div class="start__wrapper">
+                <div class="start__content">
+                    <div class="start__top-title item__block-title">
+                        <img class="start__image item__image" src="images/element.svg" alt="">
+                        <h3 class="start__title item__title">Быстрый старт</h3>
+                    </div>
+                    <p class="start__description">
+                        Больше 90% учеников прошли полный курс и смогли <br> собрать свой первый компьютер
+                    </p>
+                    <div class="start__info-graphic">
+                        <div class="start__percent-wrap">
+                            <div class="start__percent-block">
+                                <span class="start__percent">100%</span>
+                            </div>
+                            <div class="start__percent-block">
+                                <span class="start__percent">75%</span>
+                            </div>
+                            <div class="start__percent-block">
+                                <span class="start__percent">50%</span>
+                            </div>
+                            <div class="start__percent-block">
+                                <span class="start__total-percent">Итог</span>
+                            </div>
+                        </div>
+                        <div class="start__images">
+                            <img class="start__element-image" src="images/start-img-1.png" alt="">
+                            <img class="start__element-image" src="images/start-img-2.png" alt="">
+                            <img class="start__element-image" src="images/start-img-3.png" alt="">
+                            <img class="start__element-image" src="images/start-img-4.png" alt="">
+                        </div>
+                        <div class="start__information">
+                            <p class="start__bottom-description">
+                                Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Netus eget velit quisque
+                                <br>
+                                accumsan amet tortor. Velit, volutpat
+                                egestas <br> fringilla mi porttitor tempus. Placerat dui.
+                            </p>
+                            <p class="start__bottom-description">
+                                Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Netus eget velit quisque
+                                <br>
+                                accumsan amet tortor.
+                                Velit, volutpat
+                                egestas <br> fringilla mi porttitor tempus. Placerat dui.
+                            </p>
+                            <p class="start__bottom-description">
+                                Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Netus eget velit quisque
+                                <br>
+                                accumsan amet tortor.
+                                Velit, volutpat
+                                egestas <br> fringilla mi porttitor tempus. Placerat dui.
+                            </p>
+                            <p class="start__bottom-description">
+                                Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Netus eget velit quisque
+                                <br>
+                                accumsan amet tortor.
+                                Velit, volutpat
+                                egestas <br> fringilla mi porttitor tempus. Placerat dui.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="wrapper">
+                <h4 class="advantages__title item__title">Получите профессию прямо сейчас</h4>
+                <div class="advantages__inner">
+                    <div class="advantages__item">
+                        <img class="advantages__image" src="images/advantages-img-1.svg" alt="">
+                        <span class="advantages__sub-title">Только практические <br> навыки в работе</span>
+                        <p class="advantages__description">
+                            Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Netus eget velit quisque
+                            accumsan <br> amet tortor. Velit, volutpat
+                            egestas fringilla mi <br> porttitor tempus. Placerat dui.
+                        </p>
+                    </div>
+                    <div class="advantages__item">
+                        <img class="advantages__image" src="images/advantages-img-2.svg" alt="">
+                        <span class="advantages__sub-title">Только практические <br> навыки в работе</span>
+                        <p class="advantages__description">
+                            Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Netus eget velit quisque
+                            accumsan <br> amet tortor. Velit, volutpat
+                            egestas fringilla mi <br> porttitor tempus. Placerat dui.
+                        </p>
+                    </div>
+                    <div class="advantages__item">
+                        <img class="advantages__image" src="images/advantages-img-3.svg" alt="">
+                        <span class="advantages__sub-title">Только практические <br> навыки в работе</span>
+                        <p class="advantages__description">
+                            Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Netus eget velit quisque
+                            accumsan <br> amet tortor. Velit, volutpat
+                            egestas fringilla mi <br> porttitor tempus. Placerat dui.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="wrapper">
+                <div class="partners__top-title item__block-title">
+                    <img class="partners__image item__image" src="images/element.svg" alt="">
+                    <h5 class="partners__title item__title">Партнеры - топовые бренды</h5>
+                </div>
+                <div class="partners__content">
+                    <div class="partners__image-block">
+                        <img class="partners__msi-image" src="images/partners-img.png" alt="">
+                    </div>
+                    <div class="partners__image-block">
+                        <img class="partners__msi-image" src="images/partners-img.png" alt="">
+                    </div>
+                    <div class="partners__image-block">
+                        <img class="partners__msi-image" src="images/partners-img.png" alt="">
+                    </div>
+                    <div class="partners__image-block">
+                        <img class="partners__msi-image" src="images/partners-img.png" alt="">
+                    </div>
+                    <div class="partners__image-block">
+                        <img class="partners__msi-image" src="images/partners-img.png" alt="">
+                    </div>
+                    <div class="partners__image-block">
+                        <img class="partners__msi-image" src="images/partners-img.png" alt="">
+                    </div>
+                    <div class="partners__image-block">
+                        <img class="partners__msi-image" src="images/partners-img.png" alt="">
+                    </div>
+                    <div class="partners__image-block">
+                        <img class="partners__msi-image" src="images/partners-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="program">
+            <div class="program__wrapper">
+                <div class="program__top-information item__block-title">
+                    <img class="program__image item__image" src="images/element.svg" alt="">
+                    <h6 class="program__title item__title">Программа обучения</h6>
+                    <p class="program__description">
+                        Больше 90% учеников прошли полный курс и смогли <br> собрать свой первый компьютер
+                    </p>
+                </div>
+                <div class="program__inner">
+                    <div class="program__left-side">
+                        <div class="program__left-block">
+                            <span class="program__week">Неделя №1</span>
+                            <p class="program__sub-description">
+                                Красивая часть курса, <br>
+                                которая помогает в успехе
+                            </p>
+                        </div>
+                        <div class="program__left-block">
+                            <span class="program__week">Неделя №2</span>
+                            <p class="program__sub-description">
+                                Красивая часть курса, <br>
+                                которая помогает в успехе
+                            </p>
+                        </div>
+                        <div class="program__left-block">
+                            <span class="program__week">Неделя №3</span>
+                            <p class="program__sub-description">
+                                Красивая часть курса, <br>
+                                которая помогает в успехе
+                            </p>
+                        </div>
+                        <div class="program__left-block">
+                            <span class="program__week">Неделя №4</span>
+                            <p class="program__sub-description">
+                                Красивая часть курса, <br>
+                                которая помогает в успехе
+                            </p>
+                        </div>
+                    </div>
+                    <div class="program__center-border"></div>
+                    <div class="program__right-side">
+                        <div class="program__right-block">
+                            <span class="program__week-right">Неделя №2</span>
+                            <p class="program__right-description">
+                                Красивая часть курса, <br>
+                                которая помогает в успехе
+                            </p>
+                        </div>
+                        <div class="program__right-block">
+                            <span class="program__week-right">Неделя №4</span>
+                            <p class="program__right-description">
+                                Красивая часть курса, <br>
+                                которая помогает в успехе
+                            </p>
+                        </div>
+                        <div class="program__right-block">
+                            <span class="program__week-right">Неделя №6</span>
+                            <p class="program__right-description">
+                                Красивая часть курса, <br>
+                                которая помогает в успехе
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="teachers">
+            <div class="teachers__wrapper">
+                <div class="teachers__top-information item__block-title">
+                    <img class="teachers__image item__image" src="images/element.svg" alt="">
+                    <h6 class="teachers__title item__title">Ваши преподаватели</h6>
+                </div>
+                <div class="teachers__inner">
+                    <div class="teacher__item">
+                        <img class="teacher__image" src="images/teacher-img-1.svg" alt="">
+                        <span class="teacher__title">Дмитрий Иванов</span>
+                        <p class="teacher__description">
+                            Специалист по видеокартам
+                        </p>
+                        <button class="teacher__button" type="submit">Биография</button>
+                    </div>
+                    <div class="teacher__item">
+                        <img class="teacher__image" src="images/teacher-img-2.svg" alt="">
+                        <span class="teacher__title">Дмитрий Иванов</span>
+                        <p class="teacher__description">
+                            Специалист по видеокартам
+                        </p>
+                        <button class="teacher__button" type="submit">Биография</button>
+                    </div>
+                    <div class="teacher__item">
+                        <img class="teacher__image" src="images/teacher-img-3.svg" alt="">
+                        <span class="teacher__title">Дмитрий Иванов</span>
+                        <p class="teacher__description">
+                            Специалист по видеокартам
+                        </p>
+                        <button class="teacher__button" type="submit">Биография</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <h6 class="footer__title item__title">Статьи каждую неделю</h6>
+            <p class="footer__description">
+                Больше 90% учеников прошли полный курс и смогли <br> собрать свой первый компьютер
+            </p>
+            <form class="form" action="#">
+                <input class="form__input" type="email" placeholder=" E-mail">
+                <button class="form__button" type="submit">Подписаться</button>
+            </form>
+
+            <div class="footer__icons">
+                <div class="footer__icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_10112_31)">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M21.3625 14.7577C21.3625 14.7577 23.3029 16.6741 23.7829 17.5609C23.7922 17.5736 23.7995 17.5878 23.8045 17.6029C24.0001 17.9305 24.0481 18.1873 23.9521 18.3769C23.7901 18.6901 23.2417 18.8473 23.0557 18.8605H19.6261C19.3873 18.8605 18.8905 18.7981 18.2857 18.3805C17.8237 18.0577 17.3641 17.5261 16.9189 17.0065C16.2541 16.2349 15.6793 15.5653 15.0973 15.5653C15.0238 15.5651 14.9508 15.5773 14.8813 15.6013C14.4409 15.7405 13.8817 16.3681 13.8817 18.0397C13.8817 18.5629 13.4689 18.8605 13.1797 18.8605H11.6089C11.0737 18.8605 8.28731 18.6733 5.81651 16.0681C2.78891 12.8785 0.0697081 6.48005 0.0433081 6.42365C-0.125892 6.00965 0.229308 5.78405 0.613308 5.78405H4.07651C4.54091 5.78405 4.69211 6.06485 4.79771 6.31685C4.92011 6.60605 5.37371 7.76285 6.11771 9.06245C7.32251 11.1768 8.06291 12.0373 8.65451 12.0373C8.76566 12.0376 8.87492 12.0086 8.97131 11.9533C9.74411 11.5285 9.60011 8.76845 9.56411 8.19965C9.56411 8.08925 9.56291 6.96725 9.16691 6.42485C8.88371 6.03605 8.40131 5.88485 8.10971 5.82965C8.18771 5.71685 8.35331 5.54405 8.56571 5.44205C9.09491 5.17805 10.0513 5.13965 11.0005 5.13965H11.5273C12.5569 5.15405 12.8233 5.22005 13.1977 5.31485C13.9513 5.49485 13.9657 5.98325 13.8997 7.64645C13.8805 8.12165 13.8601 8.65685 13.8601 9.28685C13.8601 9.42125 13.8541 9.57125 13.8541 9.72365C13.8313 10.5768 13.8013 11.5381 14.4037 11.9329C14.4818 11.9815 14.5721 12.0073 14.6641 12.0072C14.8729 12.0072 15.4981 12.0072 17.1937 9.09725C17.9377 7.81205 18.5137 6.29645 18.5533 6.18245C18.5869 6.11885 18.6877 5.94005 18.8101 5.86805C18.8972 5.82172 18.9947 5.79858 19.0933 5.80085H23.1673C23.6113 5.80085 23.9125 5.86805 23.9713 6.03605C24.0697 6.30845 23.9521 7.14005 22.0921 9.65525C21.7789 10.074 21.5041 10.4365 21.2629 10.7533C19.5769 12.9661 19.5769 13.0777 21.3625 14.7577Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_10112_31">
+                                <rect width="24" height="24" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="footer__icon">
+                    <svg width="30" height="28" viewBox="0 0 30 28" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_10112_29)">
+                            <path
+                                d="M25.0576 6.94539C24.9381 6.50142 24.7041 6.09662 24.3789 5.77152C24.0538 5.44641 23.649 5.21239 23.2051 5.09289C21.5701 4.65039 15.0001 4.65039 15.0001 4.65039C15.0001 4.65039 8.43008 4.65039 6.79508 5.09289C6.35111 5.21239 5.94631 5.44641 5.6212 5.77152C5.29609 6.09662 5.06208 6.50142 4.94258 6.94539C4.63729 8.61284 4.48914 10.3053 4.50008 12.0004C4.48914 13.6955 4.63729 15.3879 4.94258 17.0554C5.06208 17.4994 5.29609 17.9042 5.6212 18.2293C5.94631 18.5544 6.35111 18.7884 6.79508 18.9079C8.43008 19.3504 15.0001 19.3504 15.0001 19.3504C15.0001 19.3504 21.5701 19.3504 23.2051 18.9079C23.649 18.7884 24.0538 18.5544 24.3789 18.2293C24.7041 17.9042 24.9381 17.4994 25.0576 17.0554C25.3629 15.3879 25.511 13.6955 25.5001 12.0004C25.511 10.3053 25.3629 8.61284 25.0576 6.94539ZM12.9001 15.1504V8.85039L18.3526 12.0004L12.9001 15.1504Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <filter id="filter0_d_10112_29" x="-1" y="0" width="32" height="32"
+                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                <feOffset dy="4" />
+                                <feGaussianBlur stdDeviation="2" />
+                                <feComposite in2="hardAlpha" operator="out" />
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_10112_29" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_10112_29"
+                                    result="shape" />
+                            </filter>
+                        </defs>
+                    </svg>
+
+                </div>
+                <div class="footer__icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M13.397 20.9972V12.8012H16.162L16.573 9.59217H13.397V7.54817C13.397 6.62217 13.655 5.98817 14.984 5.98817H16.668V3.12717C15.8487 3.03936 15.0251 2.99696 14.201 3.00017C11.757 3.00017 10.079 4.49217 10.079 7.23117V9.58617H7.33203V12.7952H10.085V20.9972H13.397Z"
+                            fill="white" />
+                    </svg>
+
+                </div>
+                <div class="footer__icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_10112_47)">
+                            <path
+                                d="M16.5 0H7.5C3.3585 0 0 3.3585 0 7.5V16.5C0 20.6415 3.3585 24 7.5 24H16.5C20.6415 24 24 20.6415 24 16.5V7.5C24 3.3585 20.6415 0 16.5 0ZM21.75 16.5C21.75 19.395 19.395 21.75 16.5 21.75H7.5C4.605 21.75 2.25 19.395 2.25 16.5V7.5C2.25 4.605 4.605 2.25 7.5 2.25H16.5C19.395 2.25 21.75 4.605 21.75 7.5V16.5Z"
+                                fill="white" />
+                            <path
+                                d="M12 6C8.6865 6 6 8.6865 6 12C6 15.3135 8.6865 18 12 18C15.3135 18 18 15.3135 18 12C18 8.6865 15.3135 6 12 6ZM12 15.75C9.933 15.75 8.25 14.067 8.25 12C8.25 9.9315 9.933 8.25 12 8.25C14.067 8.25 15.75 9.9315 15.75 12C15.75 14.067 14.067 15.75 12 15.75Z"
+                                fill="white" />
+                            <path
+                                d="M18.4479 6.34997C18.8895 6.34997 19.2474 5.99203 19.2474 5.55048C19.2474 5.10892 18.8895 4.75098 18.4479 4.75098C18.0064 4.75098 17.6484 5.10892 17.6484 5.55048C17.6484 5.99203 18.0064 6.34997 18.4479 6.34997Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_10112_47">
+                                <rect width="24" height="24" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="src/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="src/main.min.js"></script>
+</body>
+
+</html>

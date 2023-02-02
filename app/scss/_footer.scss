@@ -1,0 +1,97 @@
+.footer {
+    padding-bottom: 50px;
+
+    &__wrapper {
+        max-width: 547px;
+        padding: 0 15px;
+        margin: 0 auto;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    &__title {
+        margin-bottom: 30px;
+    }
+
+    &__description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: #ffffff;
+        opacity: 0.5;
+        margin-bottom: 60px;
+    }
+
+    .form {
+        position: relative;
+        width: 492px;
+        height: 44px;
+        background-color: rgba(255, 255, 255, 0.25);
+        border-radius: 50px 0px 0px 50px;
+        padding-right: 90px;
+        padding-top: 13px;
+        font-weight: 400;
+        margin-bottom: 40px;
+
+        &__input {
+            background-color: rgba(255, 255, 255, -1.75);
+            color: rgba(255, 255, 255, 0.25);
+            width: 85%;
+            border: none;
+        }
+
+        &__button {
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            right: -18px;
+            width: 160px;
+            height: 44px;
+            background: linear-gradient(
+                94.78deg,
+                #df5950 11.19%,
+                #451046 93.72%
+            );
+            border-radius: 50px;
+            border: none;
+            font-size: 16px;
+            text-align: center;
+            color: #ffffff;
+            transition: all 0.5s;
+
+            &:hover {
+                color: black;
+            }
+        }
+    }
+
+    &__icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__icon {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+        border-radius: 50%;
+        margin-right: 30px;
+        transition: box-shadow 0.3s;
+
+        svg path {
+            transition: fill 0.3s;
+        }
+
+        &:hover {
+            box-shadow: white 0px 0px 25px;
+            svg path {
+                fill: black !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.header {
+    padding-top: 48px;
+    background-image: url(../images/PC-bg.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    &__wrapper {
+        max-width: 1760px;
+        margin: 0 auto;
+        padding: 0 15px;
+        overflow: hidden;
+    }
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+
+    &__item {
+        padding-left: 56px;
+    }
+
+    &__link {
+        font-weight: 400;
+        color: #ffffff;
+        transition: all 0.5s;
+
+        &:hover {
+            color: #df5950;
+        }
+    }
+
+    &__button {
+        cursor: pointer;
+        width: 183px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+        border-radius: 50px;
+        border: none;
+        transition: all 0.4s;
+
+        &:hover {
+            &:hover {
+                transform: translateY(7px);
+            }
+        }
+    }
+
+    &--button {
+        display: none;
+    }
+}
