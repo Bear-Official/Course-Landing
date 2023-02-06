@@ -7,7 +7,6 @@
     }
 
     .hero {
-        bottom: -50px !important;
 
         &__title {
             font-size: 45px !important;
@@ -33,12 +32,14 @@
             }
         }
     }
+
+    .footer {
+        overflow: hidden;
+    }
 }
 
 @media (max-width: 1227px) {
-    .about {
-        padding-top: 150px !important;
-        padding-bottom: 150px !important;
+    .about { 
 
         &__inner {
             flex-direction: column !important;
@@ -125,7 +126,7 @@
     }
 
     .open {
-        background-color: white;
+        background-color: black;
         width: 24px;
         height: 4px;
         display: block;
@@ -138,7 +139,7 @@
 
     .open:before {
         content: "";
-        background-color: white;
+        background-color: black;
         width: 24px;
         height: 4px;
         display: block;
@@ -151,7 +152,7 @@
 
     .open:after {
         content: "";
-        background-color: white;
+        background-color: black;
         width: 24px;
         height: 4px;
         display: block;
@@ -362,8 +363,6 @@
     }
 
     .hero {
-        bottom: -265px !important;
-
         &__title {
             font-size: 32px !important;
         }
@@ -383,9 +382,6 @@
         }
     }
 
-    .about {
-        padding-top: 350px !important;
-    }
 
     .program .program {
         &__right-side,

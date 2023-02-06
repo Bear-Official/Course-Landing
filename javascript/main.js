@@ -32,4 +32,24 @@ const x = setInterval(function () {
     }
 });
 
+// var myNum1 = 2.9;
+// var myNum2 = 2.7;
 
+// if (myNum1 > myNum2) {
+//     console.log("bigger");
+// } else {
+//     console.log("lower");
+// }
+
+// let firstName = "Daniel";
+// let age = 18;
+
+// console.log("daniel este mare " + firstName + (", are multi ani"));
+
+// let a = 20;
+// let b = 23;
+// let c = 30;
+
+// console.log(a * b);
+// console.log(a / b);
+// console.log(a + b);

@@ -1,12 +1,8 @@
 .header {
     padding-top: 48px;
-    background-image: url(../images/PC-bg.svg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+    position: absolute; 
+    left: 0; 
+    right: 0;
 
     &__wrapper {
         max-width: 1760px;
